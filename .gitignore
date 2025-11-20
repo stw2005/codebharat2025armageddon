@@ -3,3 +3,4 @@ Backend/venv/
 .env/
 __pycache__/
 *.pyc
+"Backend/venv/" 
