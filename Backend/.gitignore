@@ -1,0 +1,19 @@
+cat >> .gitignore <<'EOF'
+# python / env
+Backend/venv/
+venv/
+.env
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# data / outputs / models
+data/
+models/
+*.pt
+*.pth
+*.bin
+*.dylib
+EOF
