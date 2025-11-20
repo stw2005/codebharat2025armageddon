@@ -7,3 +7,4 @@ __pycache__/
 "Backend/venv/" 
 Backend/gmail_token.json 
 Backend/client_secret_*.json 
+Backend/client_secret_*.json 
