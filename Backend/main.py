@@ -29,8 +29,9 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 # --- PATHS ---
 MODEL_DIR = "models/"
 SUMMARIZER_MODEL_NAME = "philschmid/bart-large-cnn-samsum"
-GMAIL_CLIENT_SECRET_FILE = "client_secret_737666065056-4bsl0bsl9pcljbm0m3k2gtp2glkog8vc.apps.googleusercontent.com.json" 
-GMAIL_TOKEN_FILE = "gmail_token.json"
+GMAIL_CLIENT_SECRET_JSON = os.getenv("GOOGLE_CLIENT_SECRET")
+GMAIL_REFRESH_TOKEN = os.getenv("GOOGLE_REFRESH_TOKEN")
+GMAIL_ACCESS_TOKEN = os.getenv("GOOGLE_ACCESS_TOKEN")
 GMAIL_SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 app = FastAPI(title="CodeBharat Live Mail Analytics")
