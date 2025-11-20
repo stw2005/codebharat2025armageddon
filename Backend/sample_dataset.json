@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "sender": "billing@finance.net",
+    "subject": "Thank you",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #97021. They were fast and polite.",
+    "received_at": "2025-11-19T20:28:14.056270",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 2,
+    "sender": "support@vendor.com",
+    "subject": "Thank you",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #32638. They were fast and polite.",
+    "received_at": "2025-11-19T15:01:14.056286",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 3,
+    "sender": "support@vendor.com",
+    "subject": "Great service!",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #78962. They were fast and polite.",
+    "received_at": "2025-11-20T04:12:14.056293",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 4,
+    "sender": "support@vendor.com",
+    "subject": "Terms of Service Change",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T15:09:14.056316",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 5,
+    "sender": "hr@internal.com",
+    "subject": "Where is my refund?",
+    "body": "I have been waiting for 14 days. This is unacceptable. My order #9652 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T16:52:14.056322",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 6,
+    "sender": "confused.dev@startup.io",
+    "subject": "Chargeback initiated",
+    "body": "I have been waiting for 16 days. This is unacceptable. My order #1802 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T15:28:14.056327",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 7,
+    "sender": "billing@finance.net",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T18:51:14.056332",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 8,
+    "sender": "angry.user@gmail.com",
+    "subject": "2FA not working",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-20T02:52:14.056336",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 9,
+    "sender": "happy.client@corp.com",
+    "subject": "Where is my refund?",
+    "body": "I have been waiting for 22 days. This is unacceptable. My order #8447 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T17:40:14.056340",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 10,
+    "sender": "happy.client@corp.com",
+    "subject": "Integration with Slack",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-19T18:41:14.056345",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 11,
+    "sender": "confused.dev@startup.io",
+    "subject": "Terms of Service Change",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T19:46:14.056349",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 12,
+    "sender": "hr@internal.com",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-20T01:42:14.056353",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 13,
+    "sender": "hr@internal.com",
+    "subject": "Kudos to the team",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #85212. They were fast and polite.",
+    "received_at": "2025-11-19T23:09:14.056358",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 14,
+    "sender": "billing@finance.net",
+    "subject": "Great service!",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #36052. They were fast and polite.",
+    "received_at": "2025-11-20T02:36:14.056362",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 15,
+    "sender": "confused.dev@startup.io",
+    "subject": "Chargeback initiated",
+    "body": "I have been waiting for 7 days. This is unacceptable. My order #9818 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T15:05:14.056366",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 16,
+    "sender": "billing@finance.net",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T21:30:14.056370",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 17,
+    "sender": "happy.client@corp.com",
+    "subject": "Integration with Slack",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-19T20:34:14.056374",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 18,
+    "sender": "angry.user@gmail.com",
+    "subject": "Cannot login",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-19T13:58:14.056378",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 19,
+    "sender": "happy.client@corp.com",
+    "subject": "Chargeback initiated",
+    "body": "I have been waiting for 21 days. This is unacceptable. My order #8883 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-20T04:12:14.056383",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 20,
+    "sender": "happy.client@corp.com",
+    "subject": "Refund status #9921",
+    "body": "I have been waiting for 16 days. This is unacceptable. My order #7010 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T21:07:14.056387",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 21,
+    "sender": "support@vendor.com",
+    "subject": "Can you add dark mode?",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-19T21:48:14.056391",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 22,
+    "sender": "support@vendor.com",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-20T04:27:14.056395",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 23,
+    "sender": "confused.dev@startup.io",
+    "subject": "Chargeback initiated",
+    "body": "I have been waiting for 25 days. This is unacceptable. My order #7592 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T18:03:14.056401",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 24,
+    "sender": "support@vendor.com",
+    "subject": "Chargeback initiated",
+    "body": "I have been waiting for 27 days. This is unacceptable. My order #7802 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-20T00:24:14.056406",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 25,
+    "sender": "happy.client@corp.com",
+    "subject": "Can you add dark mode?",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-19T21:51:14.056410",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 26,
+    "sender": "billing@finance.net",
+    "subject": "Compliance Review",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T19:07:14.056414",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 27,
+    "sender": "angry.user@gmail.com",
+    "subject": "API access",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-20T03:51:14.056418",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 28,
+    "sender": "hr@internal.com",
+    "subject": "Integration with Slack",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-20T03:17:14.056423",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 29,
+    "sender": "billing@finance.net",
+    "subject": "Thank you",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #60889. They were fast and polite.",
+    "received_at": "2025-11-20T00:03:14.056428",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 30,
+    "sender": "hr@internal.com",
+    "subject": "Great service!",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #92091. They were fast and polite.",
+    "received_at": "2025-11-19T22:59:14.056432",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 31,
+    "sender": "hr@internal.com",
+    "subject": "Cannot login",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-19T18:12:14.056436",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 32,
+    "sender": "angry.user@gmail.com",
+    "subject": "Kudos to the team",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #70232. They were fast and polite.",
+    "received_at": "2025-11-19T14:34:14.056440",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 33,
+    "sender": "angry.user@gmail.com",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-20T01:23:14.056444",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 34,
+    "sender": "angry.user@gmail.com",
+    "subject": "Refund status #9921",
+    "body": "I have been waiting for 21 days. This is unacceptable. My order #2939 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-19T16:23:14.056448",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 35,
+    "sender": "billing@finance.net",
+    "subject": "Compliance Review",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T18:40:14.056463",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 36,
+    "sender": "happy.client@corp.com",
+    "subject": "API access",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-20T04:59:14.056467",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 37,
+    "sender": "confused.dev@startup.io",
+    "subject": "Great service!",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #83484. They were fast and polite.",
+    "received_at": "2025-11-19T22:29:14.056471",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 38,
+    "sender": "happy.client@corp.com",
+    "subject": "2FA not working",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-20T05:28:14.056475",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 39,
+    "sender": "hr@internal.com",
+    "subject": "Cannot login",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-19T14:19:14.056479",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 40,
+    "sender": "hr@internal.com",
+    "subject": "Solved my issue",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #58799. They were fast and polite.",
+    "received_at": "2025-11-19T18:21:14.056483",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 41,
+    "sender": "happy.client@corp.com",
+    "subject": "Feature request",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-20T03:15:14.056487",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 42,
+    "sender": "confused.dev@startup.io",
+    "subject": "Password reset loop",
+    "body": "I am trying to login to my account but it keeps redirecting me to the home page. I tried on Chrome and Safari. Please help.",
+    "received_at": "2025-11-19T14:20:14.056491",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "login"
+    }
+  },
+  {
+    "id": 43,
+    "sender": "hr@internal.com",
+    "subject": "Solved my issue",
+    "body": "Just wanted to say thanks to the support agent who helped me with ticket #31619. They were fast and polite.",
+    "received_at": "2025-11-20T03:07:14.056501",
+    "expected_analysis": {
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "praise"
+    }
+  },
+  {
+    "id": 44,
+    "sender": "confused.dev@startup.io",
+    "subject": "Money not received",
+    "body": "I have been waiting for 2 days. This is unacceptable. My order #8628 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-20T03:58:14.056505",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 45,
+    "sender": "billing@finance.net",
+    "subject": "Urgent: Policy Update",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-20T04:37:14.056510",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 46,
+    "sender": "happy.client@corp.com",
+    "subject": "Feature request",
+    "body": "Hi team, I love the product but I really need SSO Login. When will this be available?",
+    "received_at": "2025-11-20T00:16:14.056514",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature"
+    }
+  },
+  {
+    "id": 47,
+    "sender": "billing@finance.net",
+    "subject": "Money not received",
+    "body": "I have been waiting for 2 days. This is unacceptable. My order #8888 was cancelled but no money back. I will report this.",
+    "received_at": "2025-11-20T02:42:14.056519",
+    "expected_analysis": {
+      "sentiment": "angry",
+      "urgency": "high",
+      "category": "refund"
+    }
+  },
+  {
+    "id": 48,
+    "sender": "angry.user@gmail.com",
+    "subject": "Terms of Service Change",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T18:21:14.056523",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 49,
+    "sender": "support@vendor.com",
+    "subject": "Compliance Review",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T22:23:14.056527",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  },
+  {
+    "id": 50,
+    "sender": "angry.user@gmail.com",
+    "subject": "Compliance Review",
+    "body": "Please review the attached document regarding the new Data Privacy guidelines effective immediately.",
+    "received_at": "2025-11-19T15:30:14.056530",
+    "expected_analysis": {
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "policy"
+    }
+  }
+]
