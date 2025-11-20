@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 "Backend/venv/" 
 "Backend/venv/" 
+Backend/gmail_token.json 
+Backend/client_secret_*.json 
