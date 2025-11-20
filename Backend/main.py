@@ -418,3 +418,12 @@ def escalate_email(email_id: int, request: EscalationRequest):
         print(f"Escalation DB Error: {e}")
         # Use a 500 error if the DB query failed
         raise HTTPException(status_code=500, detail="Database Update Failed during action execution.")
+
+
+
+
+from flask import Flask
+app = Flask(__name__)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
